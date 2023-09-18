@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://${DB}/${NAME}
-    username: ${USERNAME}
-    password: ${PASSWORD}
+    url: jdbc:mariadb://aws.cidtckobgf3m.ap-northeast-2.rds.amazonaws.com/awsDB
+    username: root
+    password: cksdl30104
   data:
     redis:
       host: localhost
