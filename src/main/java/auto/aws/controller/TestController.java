@@ -13,7 +13,6 @@ public class TestController {
         return "aws auto test";
     }
 
-
 //    @GetMapping("/test/v1")
 //    public String test1(){
 //        return "aws auto update";
