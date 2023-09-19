@@ -25,5 +25,11 @@ public class TestController {
         return "로드벨런서 성공";
     }
 
+    @GetMapping("/")
+    @ResponseStatus(code = HttpStatus.OK)
+    public String check1(){
+        return "로드벨런서 성공";
+    }
+
 
 }
