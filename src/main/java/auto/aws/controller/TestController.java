@@ -23,11 +23,16 @@ public class TestController {
         return "aws auto update";
     }
 
-//    @GetMapping("/health")
-//    @ResponseStatus(code = HttpStatus.OK)
-//    public String check(){
-//        return "로드벨런서 성공";
-//    }
+    @GetMapping("/")
+    @ResponseStatus(code = HttpStatus.OK)
+    public String check(){
+        return "로드벨런서 성공";
+    }
+    @GetMapping
+    @ResponseStatus(code = HttpStatus.OK)
+    public String check2(){
+        return "로드벨런서 성공";
+    }
 
 
     @GetMapping("/health")
