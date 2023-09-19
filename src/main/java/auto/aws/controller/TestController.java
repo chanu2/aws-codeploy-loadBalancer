@@ -34,8 +34,6 @@ public class TestController {
         return "로드벨런서 성공";
     }
 
-
-// test
     @GetMapping("/health")
     public String home(HttpServletRequest request) throws UnknownHostException {
         InetAddress localHost = InetAddress.getLocalHost();
