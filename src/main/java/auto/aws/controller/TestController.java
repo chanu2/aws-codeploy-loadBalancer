@@ -28,11 +28,6 @@ public class TestController {
     public String check(){
         return "로드벨런서 성공";
     }
-    @GetMapping
-    @ResponseStatus(code = HttpStatus.OK)
-    public String check2(){
-        return "로드벨런서 성공";
-    }
 
     // one
     //two
