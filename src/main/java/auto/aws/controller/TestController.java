@@ -29,8 +29,7 @@ public class TestController {
         return "로드벨런서 성공";
     }
 
-    // one
-    //two
+    // on
 
     @GetMapping("/health")
     public String home(HttpServletRequest request) throws UnknownHostException {
