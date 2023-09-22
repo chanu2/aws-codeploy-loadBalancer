@@ -39,4 +39,9 @@ public class TestController {
         return "Server IP : " + localHost.getHostAddress();
     }
 
+    @GetMapping("/test/update")
+    public String update(){
+        return "aws auto update success";
+    }
+
 }

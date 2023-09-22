@@ -16,3 +16,17 @@ spring:
         #show_sql: true
         format_sql: ture
 
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#
+#
+#server:
+#  tomcat:
+#    mbeanregistry:
+#      enabled: true
